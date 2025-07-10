@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>OAuth Result</title>
+  </head>
+  <body>
+    <h1>Access Token:</h1>
+    <p id="token"></p>
+    <script>
+      const hash = window.location.hash;
+      document.getElementById("token").innerText = hash;
+    </script>
+  </body>
+</html>
